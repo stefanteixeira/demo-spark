@@ -1,0 +1,11 @@
+{
+	"result": {
+		"code": "00",
+		"success": true,
+		"message": "Request succesful",
+		"authNumber": "98340"
+	},
+	"user": {
+		"token": ""
+	}
+}
