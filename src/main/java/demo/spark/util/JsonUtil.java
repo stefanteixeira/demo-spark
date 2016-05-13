@@ -12,13 +12,9 @@ import com.google.gson.JsonParser;
 import com.google.gson.JsonSyntaxException;
 
 public class JsonUtil {
-    
+
     public static String toJson(Object object) {
         return new Gson().toJson(object);
-    }
-
-    public static ResponseTransformer json() {
-        return JsonUtil::toJson;
     }
 
     public static JsonElement parseFromFile(String filename) {
@@ -34,5 +30,5 @@ public class JsonUtil {
         }
         return new JsonObject();
     }
-    
+
 }
